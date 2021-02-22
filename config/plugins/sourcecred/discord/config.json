@@ -6,7 +6,7 @@
     "🔥": 1,
     "💯": 1
   }
-    "channelWeightConfig" : {
+    "channelWeightConfig" {
     "defaultWeight": 1,
     "weights": {
       "787736085202468875": 0,
