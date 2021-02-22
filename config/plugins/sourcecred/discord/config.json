@@ -6,7 +6,7 @@
     "🔥": 1,
     "💯": 1
   }
-    "channelWeightConfig" {
+    "channelWeightConfig": {
     "defaultWeight": 1,
     "weights": {
       "787736085202468875": 0,
@@ -22,6 +22,6 @@
       "767770283670765618": 2,
       "750996321011236924": 2
     }
-  },
+  }
   "propsChannels": ["813024617689251850"]
 }
