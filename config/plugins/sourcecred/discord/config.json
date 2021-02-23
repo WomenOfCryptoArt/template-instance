@@ -1,10 +1,6 @@
 {
   "guildId": "750736109037682770",
   "reactionWeights": {
-  },
-    "channelWeightConfig": {
-    "weights": {
-    }
-  },
-  "propsChannels": ["813024617689251850"]
+    "👍": 1
+  }
 }
