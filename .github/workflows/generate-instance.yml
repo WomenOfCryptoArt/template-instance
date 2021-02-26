@@ -28,8 +28,8 @@ jobs:
       - name: Load Data and Compute Cred 🧮
         run: yarn sourcecred go
         env:
-          SOURCECRED_GITHUB_TOKEN: fef76de9ccc80afdf2141d73683ca120753aa5a3
-          SOURCECRED_DISCORD_TOKEN: ODAzNTc5MTI2MjcxMTgwODUw.YA_1YQ.qD_LNrlpP2H_hdQVQMvTG87T5i0
+          SOURCECRED_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
 
       - name: Generate Frontend 🏗
         run: |
@@ -40,6 +40,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          GITHUB_TOKEN: fef76de9ccc80afdf2141d73683ca120753aa5a3
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: site
